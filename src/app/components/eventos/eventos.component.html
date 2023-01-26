@@ -1,0 +1,7 @@
+<div class = "aula">
+    <p *ngIf="show">eventos works!</p>
+    <select (select)="ShowMessenger()">
+        <option *ngFor="let plano of planos ">{{plano}}</option>
+
+    </select>
+</div>
