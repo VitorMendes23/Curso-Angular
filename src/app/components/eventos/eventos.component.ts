@@ -9,10 +9,16 @@ export class EventosComponent implements OnInit {
 
   show: boolean = false;
 
-  planos: string[] = ['Selecione um plano','plano 2000','plano 2001','plano 2002','plano 2003'];
+  impactos: string[] = ['Selecione um plano','Condição de vesting','Multiplicador de quantidades','Multiplicador de valor da ação'];
 
-  ShowMessenger (): void{
-    this.planos;
+  ShowMessengerImpactos (): void{
+    this.impactos;
+  }
+
+  Apuracoes: string[] = ['Selecione um plano','No vesting','No resgate','Em data específica','Até atingir o vencimento'];
+
+  ShowMessengerApuracoes (): void{
+    this.Apuracoes;
   }
   constructor() {}
 
