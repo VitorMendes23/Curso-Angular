@@ -1,0 +1,14 @@
+div > div {
+    display: inline-block;
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    border: 1px solid gray;
+    background-color: whitesmoke;
+    margin: 1px;
+}
+.p{
+    font-size: 0%;
+    padding: 5px;
+
+}
